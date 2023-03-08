@@ -6,19 +6,19 @@ export default function useCounter() {
 
   const count = computed(() => store.state.count)
 
-  function increment() {
+  const increment = () => {
     store.commit('increment')
   }
 
-  function decrement() {
+  const decrement = () => {
     store.commit('decrement')
   }
 
-  function reset() {
+  const reset = () => {
     store.commit('reset')
   }
 
-  function setValue(value) {
+  const setValue = (value) => {
     store.commit('setValue', value)
   }
 
@@ -27,6 +27,6 @@ export default function useCounter() {
     increment,
     decrement,
     reset,
-    setValue,
+    setValue
   }
 }

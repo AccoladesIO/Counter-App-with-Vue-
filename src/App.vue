@@ -1,17 +1,25 @@
 <template>
-  <div>
-    <nav>
-      <ul>
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/counter">Counter</router-link></li>
-      </ul>
-    </nav>
+  <div class="app">
+    <Navbar />
     <router-view />
   </div>
 </template>
 
 <script>
+import Navbar from './components/NavBar.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Navbar
+  }
 }
 </script>
+
+<style>
+  .app{
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+  }
+</style>

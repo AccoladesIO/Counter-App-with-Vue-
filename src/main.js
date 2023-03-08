@@ -1,27 +1,7 @@
-import { createApp } from 'vue';
-// import { createStore } from 'vuex';
-import { createRouter, createWebHistory } from 'vue-router';
-import CounterApp from './components/CounterApp.vue';
-import NotFound from './components/NotFound.vue';
-import counter from '../src/composables/counter'
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
+import './App.css'
 
-const routes = [
-  {
-    path: '/',
-    component: CounterApp
-  },
-  {
-    path: '/:catchAll(.*)',
-    component: NotFound
-  }
-];
-
-const router = createRouter({
-  history: createWebHistory(),
-  routes
-});
-
-const app = createApp(CounterApp);
-app.use(counter);
-app.use(router);
-app.mount('#app');
+createApp(App).use(router).use(store).mount('#app')
