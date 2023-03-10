@@ -1,4 +1,4 @@
-## Counter App
+## Counter App With VueJs
 
 ## Project setup
 ```
