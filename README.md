@@ -1,4 +1,4 @@
-# my-project
+# Counter App
 
 ## Project setup
 ```
