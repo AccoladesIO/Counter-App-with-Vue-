@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: primaryFont;
+    src: url('../src/assets/Poppins-Regular.ttf');
+  }
+@font-face {
+    font-family: secFont;
+    src: url('../src/assets/NBP.ttf');
+  }
+  @font-face {
+    font-family: terFont;
+    src: url('../src/assets/Poppins-Medium.ttf');
+  }
+  body{
+    background-color: lavender;
+    color: #333;
+  }

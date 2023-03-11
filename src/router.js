@@ -1,11 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Counter from '../src/components/CounterApp.vue'
 import NotFound from '../src/components/NotFound.vue'
+import HomeApp from '../src/components/HomeApp.vue'
 
 const routes = [
   {
     path: '/',
-    redirect: '/counter'
+    name: 'HomeApp',
+    component: HomeApp
   },
   {
     path: '/counter',

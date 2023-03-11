@@ -1,19 +1,24 @@
 <template>
   <div class="app">
     <Navbar />
+    <ToggleSwitch />
     <router-view />
   </div>
 </template>
 
 <script>
 import Navbar from './components/NavBar.vue'
+import ToggleSwitch from "./components/ToggleSwitch.vue";
 
 export default {
   name: 'App',
   components: {
-    Navbar
+    Navbar,
+    ToggleSwitch,
   }
-}
+};
+
+
 </script>
 
 <style>
