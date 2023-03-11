@@ -30,6 +30,7 @@
     height: calc(100vh - 80px);
     width: 98%;
     margin: 0 auto;
+    animation: fadeIn 1s ease-in-out;
   }
   .heading-main{
     font-size: 48px;
@@ -62,6 +63,15 @@
     font-size: 18px;
     font-family: primaryFont;
 
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   </style>
   

@@ -48,6 +48,7 @@
       margin: 0 auto;
       height: calc(100vh - 60px);
       flex-direction: column;
+      animation: fadeIn 1s ease-in-out;
     }
     .heading-main{
       font-size: 48px;
@@ -111,7 +112,9 @@
     }
     input{
       border: none;
-      padding: 16px 16px;
+      height: 50px;
+      padding: 10px;
+      width: 260px;
       margin: 20px 0 20px 0;
       font-family: primaryFont;
       font-size: 16px;
@@ -125,9 +128,20 @@
       margin-left:  -4px;
       border-left: 1px solid #fff;
       font-weight: bolder;
+      width: 100px;
+      padding: 10px;
     }
     .submit:hover{
       background-color: azure;
       transition: all 0.4s;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
     }
 </style>
