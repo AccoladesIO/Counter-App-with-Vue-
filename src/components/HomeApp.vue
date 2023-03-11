@@ -30,7 +30,7 @@
     height: calc(100vh - 80px);
     width: 98%;
     margin: 0 auto;
-    animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out;
   }
   .heading-main{
     font-size: 48px;
