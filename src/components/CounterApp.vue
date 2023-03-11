@@ -111,7 +111,7 @@
     }
     input{
       border: none;
-      padding: 18px 20px;
+      padding: 16px 16px;
       margin: 20px 0 20px 0;
       font-family: primaryFont;
       font-size: 16px;
