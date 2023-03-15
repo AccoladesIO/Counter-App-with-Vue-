@@ -28,7 +28,7 @@
   }
   
   .logo {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-family: secFont;
     font-weight: light;
     letter-spacing: 2px;
@@ -44,6 +44,7 @@
   }
   
   .nav-links a {
+    font-size: 1.6rem;
     color: inherit;
     text-decoration: none;
     margin-right: 1rem;

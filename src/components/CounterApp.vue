@@ -51,7 +51,7 @@
       animation: fadeIn 1s ease-in-out;
     }
     .heading-main{
-      font-size: 48px;
+      font-size: 5.2rem;
       margin-bottom: 16px;
       text-align: center;
       font-family: primaryFont;
@@ -74,6 +74,7 @@
       border: none;
       border-radius: 10px;
       color: black;
+      box-shadow:  3px 3px 6px #555;
     }
     .btn.reset{
       background-color: azure;

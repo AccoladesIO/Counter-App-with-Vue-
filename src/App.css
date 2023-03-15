@@ -9,7 +9,7 @@
   }
 @font-face {
     font-family: secFont;
-    src: url('../src/assets/NBP.ttf');
+    src: url('../src/assets/Rooster.ttf');
   }
   @font-face {
     font-family: terFont;
@@ -18,4 +18,8 @@
   body{
     background-color: lavender;
     color: #333;
+  
+  }
+  html{
+    font-size: 62.5%;
   }

@@ -4,7 +4,7 @@
       <p class='home__msg'>Counter App with VueJS that performs Increment, decrement, Reset and set Value functions. 
       </p>
        
-        <div> 
+        <div class=btn_wrap> 
           <button type='button' class='btn'><router-link to="/counter">Counter</router-link> </button>
           <button type='button' class='btn'><a href='https://www.github.com/accoladesio'>GitHub</a> </button>
         </div>
@@ -33,7 +33,7 @@
     animation: fadeIn 1.5s ease-in-out;
   }
   .heading-main{
-    font-size: 48px;
+    font-size: 54px;
     margin-bottom: 16px;
     text-align: center;
     font-family: primaryFont;
@@ -41,7 +41,7 @@
   }
   .home__msg{
     font-family: terFont;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -49,13 +49,15 @@
     justify-content: center;
     align-items: center;
   }
-  .btn{
+  .btn_wrap .btn{
     width: 100px;
     height: 50px;
     outline: none;
     border: none;
     border-radius: 10px;
     margin: 10px;
+    filter: drop-shadow(0 0 1em lightblue);
+
   }
   .btn a{
     text-decoration: none;
